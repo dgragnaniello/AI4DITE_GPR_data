@@ -5,6 +5,9 @@ Low-Frequency Ground Penetrating Radar (GPR) Dataset Acquired via Ground-Based a
 
 This GitHub repository provides the official Python toolkit accompanying the *Low-Frequency GPR Ground/UAV Dataset* developed by **INGV** and **UNISA**. The repository ensures reproducibility of the dataset organization and supports rigorous comparative analysis across the two acquisition modalities (ground-based cart and UAV-mounted GPR).
 
+The dataset associated with this repository is publicly available on Zenodo at:
+https://doi.org/10.5281/zenodo.18769571
+
 The codebase is designed as a **modular and extensible framework**, enabling the complete data handling workflow—from raw file ingestion to cross-modality alignment and export toward other scientific environments. While currently tailored to ground and UAV GPR acquisitions, the architecture has been intentionally designed to support **future extensions to additional sensing modalities and acquisition platforms**, such as vehicle-mounted systems, robotic platforms, or alternative airborne configurations.
 
 ### Main Features
